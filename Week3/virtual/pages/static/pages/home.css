@@ -82,3 +82,7 @@
 .links:hover {
     color: black;
 }
+
+.alert {
+    margin-top: 50px;
+}

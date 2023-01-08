@@ -1,0 +1,28 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+
+{% if form.errors %}
+<div class="alert alert-warning alert-dismissible fade show" id='register_alert' role="alert">
+    There was an error with your form, please review it for errors.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+{% endif %}
+
+<link rel='stylesheet' href="{% static 'pages/home.css' %} "/>
+<link rel='stylesheet' href="{% static 'pages/register.css' %} "/>
+
+<h1 class="register_h1">Register</h1>
+<br/>
+
+<form class='form' action="{% url 'register_user' %}" method="POST">
+    {% csrf_token %}
+        {{ form.as_p }}
+        <br/>
+    <input type="submit" class="btn btn-primary"  value="Submit">
+</form>
+
+<br/>
+{% endblock %}

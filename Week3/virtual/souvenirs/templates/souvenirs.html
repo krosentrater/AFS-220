@@ -1,0 +1,76 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel='stylesheet' href="{% static 'pages/home.css' %} "/>
+<link rel="stylesheet" href="{% static 'pages/souvenirs.css' %}" />
+
+<div class="container">
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Surf &#38; Turf Souvenirs
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/giftcard.png' %}" alt='giftcard' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Gift Card</span>
+                        <span class="menu-item-price">Price at Register</span>
+                    </h3>
+                    <p class="menu-item-description">Purchase a gift card for our establishment for friends or family! Or even get one for yourself for your next visit!</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/statue.jpg' %}" alt='statue' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Surf &#38; Turf Statue</span>
+                        <span class="menu-item-price">$14.99</span>
+                    </h3>
+                    <p class="menu-item-description">A groovy statue of Surf &#38; Turf to help you remember to come back and visit again!</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/hat.jpg' %}" alt='hat' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Surf &#38; Turf Hat</span>
+                        <span class="menu-item-price">$19.99</span>
+                    </h3>
+                    <p class="menu-item-description">Surf &#38; Turf hat to help keep you cool, and look cool, on those sunny days. You can choose from white, black or navy blue and white.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/sweater.jpg' %}" alt='sweater' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Surf &#38; Turf Sweater</span>
+                        <span class="menu-item-price">$29.99</span>
+                    </h3>
+                    <p class="menu-item-description">A warm and cozy hoodie from your favorite restaurant. Comes in black, gray, white, beige, and blue.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/shirt.jpg' %}" alt='shirt' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Surf &#38; Turf Shirt</span>
+                        <span class="menu-item-price">$19.99</span>
+                    </h3>
+                    <p class="menu-item-description">A comfortable T-shirt from the coolest restaurant in San Diego. Multiple colors to purchase.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}

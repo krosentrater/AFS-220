@@ -1,8 +1,12 @@
 {% extends 'pages/base.html' %}
+{% load static %}
 
 {% block content %}
 
-<h1>Login</h1>
+<link rel='stylesheet' href="{% static 'pages/home.css' %} "/>
+<link rel='stylesheet' href="{% static 'pages/login.css' %} "/>
+
+<h1 class="login_h1">Login</h1>
 <br/>
 
 <form action='' method="POST">
@@ -15,7 +19,7 @@
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" name="password">
         </div>
-    <input type="submit" class="btn btn-primary" value="submit">
+    <input type="submit" class="btn btn-primary" id="login_button" value="Submit">
 </form>
 
 <br/>

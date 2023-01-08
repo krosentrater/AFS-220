@@ -1,0 +1,208 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel='stylesheet' href="{% static 'pages/home.css' %} "/>
+<link rel="stylesheet" href="{% static 'pages/menu.css' %}" />
+
+<div class="container">
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Appetizers
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/mozzarella_sticks.jpg' %}" alt='mozzarellasticks' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Mozzarella Sticks</span>
+                        <span class="menu-item-price">$8.99</span>
+                    </h3>
+                    <p class="menu-item-description">This classic appetizer consists of sticks of mozzarella cheese that are coated in seasoned Italian breadcrumbs, then deep fried until golden brown.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/cheese_fries.jpg' %}" alt='cheesefries' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Cheese Fries</span>
+                        <span class="menu-item-price">$5.99</span>
+                    </h3>
+                    <p class="menu-item-description">Classic french fries smothered with melted cheddar cheese.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/shrimp_cocktail.jpg' %}" alt='shrimpcocktail' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Shrimp Cocktail</span>
+                        <span class="menu-item-price">$9.99</span>
+                    </h3>
+                    <p class="menu-item-description">Cooked jumbo shrimp pieces served with cocktail sauce and garnished with lemon and parsley greens. Comes with side of bread.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/oysters.jpg' %}" alt='oysters' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Oysters</span>
+                        <span class="menu-item-price">$10.99</span>
+                    </h3>
+                    <p class="menu-item-description">Oven roasted oysters with warm butter mignonette.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Entr&eacute;e
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/burger.jpg' %}" alt='burger' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">All-American Cheeseburger</span>
+                        <span class="menu-item-price">$14.99</span>
+                    </h3>
+                    <p class="menu-item-description">Hamburger topped with cheese. Comes with lettuce, tomato, onions, and a side of french fries.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/fish_tacos.jpg' %}" alt='fishtacos' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Fish Tacos</span>
+                        <span class="menu-item-price">$17.99</span>
+                    </h3>
+                    <p class="menu-item-description">Freshly caught tilapia topped with sour cream, mayo, lime juice, garlic powder and sriracha. Comes with lemons on the side.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/surfandturf.jpg' %}" alt='surfandturf' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Surf &#38; Turf</span>
+                        <span class="menu-item-price">$19.99</span>
+                    </h3>
+                    <p class="menu-item-description">Our house specality! Delicious ribeye steaks cooked and seasoned to perfection placed along side plump smoked lobster tails.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/salmon.jpg' %}" alt='salmon' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Grilled Salmon</span>
+                        <span class="menu-item-price">$19.99</span>
+                    </h3>
+                    <p class="menu-item-description">Grilled salmon paired with lemon grass rice and asparagus. Delicious and simple!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Deserts
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/cookie.jpg' %}" alt='cookie' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Salted Caramel Cookie Skillet</span>
+                        <span class="menu-item-price">$6.99</span>
+                    </h3>
+                    <p class="menu-item-description">Warm fresh baked salted caramel cookie topped with vanilla ice cream drizzled with caramel syrup. </p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/spring_rolls.jpg' %}" alt='springrolls' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Banana Spring Rolls</span>
+                        <span class="menu-item-price">$9.99</span>
+                    </h3>
+                    <p class="menu-item-description">Banana pieces wrapped in spring roll paper fried to a perfect crispness. Served with coconut and pineapple ice cream scoops.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/cake.jpg' %}" alt='cake' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Molten Chocolate Cake</span>
+                        <span class="menu-item-price">$7.99</span>
+                    </h3>
+                    <p class="menu-item-description">Chocolate cake with a molten center topped with vanilla ice cream.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Drinks
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/soda.jpg' %}" alt='soda' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Soft Drink</span>
+                        <span class="menu-item-price">$2.99</span>
+                    </h3>
+                    <p class="menu-item-description">Classic soft soda, choose between Sprite, Coca Cola, Dr. Pepper, Strawberry Fanta, or Diet Coke.</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/beer.jpg' %}" alt='beer' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Draft Beer</span>
+                        <span class="menu-item-price">$6.99</span>
+                    </h3>
+                    <p class="menu-item-description">Selection of draft beer including, but not limited to: Coors Light, Samuel Adams, Belgian White, Oh-j, IPA, and Guinness Draught. </p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img class="menu-item-image" src="{% static 'pages/images/wine.jpg' %}" alt='wine' >
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Wine</span>
+                        <span class="menu-item-price">$8.99</span>
+                    </h3>
+                    <p class="menu-item-description">Choice between red or white wine. Ask for availability. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
