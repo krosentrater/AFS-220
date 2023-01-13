@@ -1,0 +1,68 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel='stylesheet' href="{% static 'pages/home.css' %} "/>
+<link rel="stylesheet" href="{% static 'pages/attractions.css' %}" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+<div class="container">
+    <div class="menu">
+        <h2 class="menu-group-heading">
+            Local Attractions
+        </h2>
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">USS Midway Museum</span>
+                    </h3>
+                    <p class="menu-item-description">A very popular attraction for tourists to go and check out! Spend a couple hours here learning about the history of USS Midway while learning about how life was like living upon the ship.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2240.520657190706!2d-117.17329696926625!3d32.71294896260813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954ab2a6e80c1%3A0xfbb78930404553b2!2sUSS%20Midway%20Museum!5e0!3m2!1sen!2sus!4v1673499948490!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">San Diego Seal Tour</span>
+                    </h3>
+                    <p class="menu-item-description">A very fun way to see more of San Diego in a very different way: with a landboat! Check this tour out to see some cool seals and a beautiful city. </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1584.3678776212837!2d-117.17016206101212!3d32.70841459586009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deab215337c371%3A0x534bc62dbc701fbb!2sSan%20Diego%20Seal%20Tour!5e0!3m2!1sen!2sus!4v1673500383889!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Gaslamp Quarter Sign</span>
+                    </h3>
+                    <p class="menu-item-description">Check out this download area with many different shops and a crazy nightlife.  </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.2958709117927!2d-117.15960935895069!3d32.70797246963849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d953bcb8d5f0c9%3A0xc31db4ef7906c9ed!2sGaslamp%20Quarter%20Sign!5e0!3m2!1sen!2sus!4v1673500574326!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-group">
+            <div class="menu-item">
+                <div class="menu-item-text">
+                    <h3 class="menu-item-heading">
+                        <span class="menu-item-name">Old Town San Diego</span>
+                    </h3>
+                    <p class="menu-item-description">You can't miss Old Town San Diego! Check out one of the many haunted attractions here, including the Whaley House! Or come tour Old Town to shop around and learn about the history of San Diego.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.5945361138765!2d-117.19724147406973!3d32.75351882581809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30cec24df5e87fa6!2sOld%20Town%20San%20Diego!5e0!3m2!1sen!2sus!4v1673500741407!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'members',
     'menu',
     'souvenirs',
+    'attractions',
 ]
 
 MIDDLEWARE = [
