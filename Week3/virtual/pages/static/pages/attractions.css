@@ -5,8 +5,8 @@
 }
 
 .menu {
-    font-family: 'Caveat', cursive;
     font-size: 16px;
+    font-family: 'Caveat', cursive;
 }
 
 .menu-group-heading {
@@ -32,4 +32,8 @@ h2 {
 
 .menu-item-name {
     font-size: 30px;
+}
+
+.menu-item-name {
+    font-weight:800;
 }

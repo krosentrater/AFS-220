@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'menu',
     'souvenirs',
     'attractions',
+    'discounts',
 ]
 
 MIDDLEWARE = [

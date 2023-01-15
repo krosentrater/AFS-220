@@ -54,8 +54,8 @@
     position: relative;
     transition: 0.5s;
     transition: all 0.5s;
-  }
-  
+}
+
 .button span:after {
     content: '\00bb';
     position: absolute;
@@ -63,16 +63,16 @@
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
+}
+
 .button:hover span {
     padding-right: 25px;
-  }
-  
+}
+
 .button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
 
 .links {
     text-decoration: none;
@@ -85,4 +85,8 @@
 
 .alert {
     margin-top: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
 }

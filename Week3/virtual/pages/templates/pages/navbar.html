@@ -1,5 +1,5 @@
 {% load static %}
-
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');</style>
 <nav class="navbar bg-light fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}"><img class='logo' src="{% static 'pages/images/surflogo.png' %}" alt="Logo" width="45" height="35" >Surf &#38; Turf</a>
@@ -48,7 +48,7 @@
                     </a>
                 <ul class="dropdown-menu dropdown-menu-light">
                     <li><a class="dropdown-item" href="{% url 'attractions' %}">Attractions</a></li>
-                    <li><a class="dropdown-item" href="#">Hotel Discounts</a></li>
+                    <li><a class="dropdown-item" href="{% url 'discounts' %}">Discounts</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
